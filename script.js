@@ -46,7 +46,7 @@ function display(results) {
         let a = document.createElement("a");
         a.href = obj.links.html;
         a.target = "_blank";  // 🟢 Opens link in new tab
-        p.innerText = obj.cover_photo.alt_description;
+       p.innerText = obj.cover_photo.alt_description || "No Information is present";
 
         a.append(p);
         const img = document.createElement('img');

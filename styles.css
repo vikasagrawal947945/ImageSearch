@@ -98,15 +98,22 @@ form {
     height: 200px;
     object-fit: cover;
     border-bottom: 3px solid #4CAF50;
+    display: block;
 }
 
 .card a {
-    display: flex;
+    display: block;
     text-align: center;
-    padding: 10px 0;
     background-color: #2a3b8f;
     color: #fff;
     text-decoration: none;
+    height: 50px;
+    
+}
+.card a p{
+     text-align: center;
+     margin: 0;
+     padding: 10px;
     
 }
 
